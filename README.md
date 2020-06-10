@@ -1,5 +1,5 @@
-This repository will store some of the basic data and posteriors for the young planetary system HD63433bc, for the paper "TESS Hunt for Young and Maturing Exoplanets (THYME) III: a two-planet system in the 400 Myr Ursa Major Group" (Mann et al. 2020). 
+This repository will store some of the basic data and posteriors for the young planetary system HD63433bc, for the paper "TESS Hunt for Young and Maturing Exoplanets (THYME) III: a two-planet system in the 400 Myr Ursa Major Group" (Mann et al. 2020). The goal is not to include all the (mostly IDL code) used to make figures, just the basic code required to reproduce the scientific results (mainly the MCMC fits). 
 
-The posteriors are heavily trimmed to fit within space constraints. If the full posteriors are required, please contact me. Note that within the posteriors, gpparlogq1 corresponds to ln(deltaQ) and gpparlogq2 corresponds to ln(Q0) in the paper text. 
+The posteriors (HD63433_e1_trim.fits and HD63433_e0_trim.fits) are trimmed to fit within GitHub space limits. If the full posteriors are required, please contact me. Note that within the posteriors, gpparlogq1 corresponds to ln(deltaQ) and gpparlogq2 corresponds to ln(Q0) in the paper text. The others should be relatively self-explanatory.
 
 If you use any of this material, please cite Mann et al. (2020). Note that this implementation of [MISTTBORN](https://github.com/captain-exoplanet/misttborn) is specific to this system, and will not run on others without adjustments to the code. 
