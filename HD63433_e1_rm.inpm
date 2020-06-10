@@ -1,0 +1,60 @@
+nplanets	2
+nwalkers	100
+nsteps		150000
+nthreads	5
+sysname	 	HD63433_e1_rv
+
+rvfile		RV.dat
+vsini		7.3
+intwidth	4.2
+lambda1		0.01
+whichtomplanet1	1
+rvtrend		-0.014
+rvtrendquad -0.191
+gamma1		-15.7455
+g1t		0.57
+g2t		0.16
+rhostar	1.3047805
+
+fitintwidth	True
+
+photlcflag	q
+picklefile  HD63433_e1.pkl
+perturbfile	HD63433_e1_perturbsm.txt
+priorfile	HD63433_e1_priors.txt
+chainfile	emceechain-HD63433_e1_rv.npy
+probfile	emceeprob-HD63433_e1_rv.npy
+accpfile	emceeaccept-HD63433_e1_rv.npy
+plotfile	HD63433_e1.pdf
+asciiout    HD63433_e1.ascii
+
+Per1		7.10814
+epoch1		1916.4630
+rprs1		0.02158
+bpar1		0.16
+ecc1        0.05
+omega1      10
+
+Per2		20.5453
+epoch2		1844.057
+rprs2		0.02684 
+bpar2		0.01
+ecc2        0.05
+omega2      10
+
+obs1		TESS
+filternumber1   1
+g1p1		0.43
+g2p1		 0.14
+
+photfile1	TESS_lc.txt
+expunit1	s
+gppuse1		1
+
+gppackflag    	celerite
+gpmodtypep	SHOMixture
+gppparLogP 	1.86
+gppparLogamp 	-10.74
+gppparLogQ1 	0.389
+gppparLogQ2 	2.38
+gppparmix	0.26

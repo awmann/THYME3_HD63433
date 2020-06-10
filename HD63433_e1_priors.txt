@@ -1,0 +1,7 @@
+rhostar 	0.15421090
+q1p1		0.07
+q2p1		0.05
+q1t            0.08
+q2t            0.06
+vsini           0.3
+intwidth       1.2

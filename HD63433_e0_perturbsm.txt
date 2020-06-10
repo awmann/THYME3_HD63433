@@ -1,0 +1,27 @@
+perturbfac	1.0
+q1p1		0.1
+q2p1		0.1
+epoch1		0.0010
+Per1		1e-3
+rprs1		0.001
+bpar1		0.1
+epoch2		0.0010
+Per2		1e-4
+rprs2		0.001
+bpar2		0.1
+rhostar  	0.1
+gppparLogP 	0.1
+gppparLogamp 	0.1
+gppparLogQ1 	0.1
+gppparLogQ2 	0.1
+gppparmix	0.1
+gppparLogSigma	0.1
+
+lambda1 1
+vsini 0.1
+intwidth 0.1
+rvtrend 0.1
+rvtrendquad 0.01
+q1t 0.1
+q2t 0.1
+gamma1 0.01
